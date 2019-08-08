@@ -40,4 +40,10 @@ li a {
   text-decoration: none;
   font-family: Raleway;
   font-size: 18px;
+  color: #4d4d4d;
+}
+
+li a:hover {
+  color: black;
+  font-weight: 600;
 }
