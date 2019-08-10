@@ -6,8 +6,12 @@ html, body {
   background-color: #000;
 }
 
+.padding {
+  padding-bottom: 2rem;
+}
+
 .navbar {
-  padding: 0.8rem;
+  padding: 3rem;
 }
 
 .navbar-nav li {
@@ -40,30 +44,39 @@ html, body {
 
 .my-name {
   color: white;
-  padding-top: 2em;
+  padding-top: .25em;
   font-weight: 600;
   font-size: 5rem;
-  animation-name: name-drop;
-  animation-duration: 1.5s;
+  animation-name: name-drop, fade-in;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
 .my-text {
   color: #D0D3D4;
-  animation-name: name-text-drop;
+  animation-name: fade-in;
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
-@keyframes name-drop {
-  0% {
-    transform: translateY(-100%);
-    opacity: .1;
-  }
+.my-name h1 {
+  line-height: .8;
 }
 
-@keyframes name-text-drop {
-  0% {
-    opacity: .1;
-  }
+.my-name-sub {
+  color: #D0D3D4;
 }
+
+@keyframes fade-in {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes name-drop {
+  0% {transform: translateY(-100%);}
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+@media (max-width: 576px) {}
