@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs	/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -17,30 +17,39 @@
 <body>
 
 	<!--Navigation Bar-->
-	<nav class="navbar navbar-expand-md navbar-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Shane Gilbert</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<a class="navbar-brand my-logo" href="index.html">LOGO</a>
+			<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link nav-color" href="index.html">WORK</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link nav-color" href="#">ABOUT</a>
 						</li>
 					</ul>
 				</div>
 		</div>
 	</nav>
 
+	<!--Home Screen-->
+	<div class="container-fluid padding">
+		<div class="row main-text">
+			<div class="col-12">
+				<h1 class="display-4 my-name">Shane Gilbert</h1>
+			</div>
+			<div class="col-12">
+				<p class="lead my-text">Placeholder paragraph text for what I'll add later.</p>
+			</div>
+		</div>
+	</div>
+
 	<!--Project Carousel-->
-	<div id="slides" class="carousel slide" data-ride="carousel">
+	<!-- <div id="slides" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#slides" data-slide-to="0" class="active"></li>
 			<li data-target="#slides" data-slide-to="1"></li>
@@ -50,6 +59,9 @@
 			<div class="carousel-item active">
 				<a href="#">
 					<img class="d-block w-100" src="img/test.jpg" alt="First Slide">
+					<div class="carousel-caption">
+						<h1 class="display-2">UX-Design</h1>
+					</div>
 				</a>
 			</div>
 			<div class="carousel-item">
@@ -71,7 +83,7 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-	</div>
+	</div> -->
 
 </body>
 </html>

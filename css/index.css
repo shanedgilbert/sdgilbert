@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   color: #222;
+  background-color: #000;
 }
 
 .navbar {
@@ -15,4 +16,54 @@ html, body {
 
 .nav-link {
   font-size: 1.1em !important;
+}
+
+.nav-color, .logo-name {
+  color: #D0D3D4 !important;
+}
+
+.nav-color:hover {
+  color: white !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.logo-name {
+  font-weight: 500;
+}
+
+.main-text {
+  padding-left: 1rem;
+}
+
+.my-name {
+  color: white;
+  padding-top: 2em;
+  font-weight: 600;
+  font-size: 5rem;
+  animation-name: name-drop;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.my-text {
+  color: #D0D3D4;
+  animation-name: name-text-drop;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes name-drop {
+  0% {
+    transform: translateY(-100%);
+    opacity: .1;
+  }
+}
+
+@keyframes name-text-drop {
+  0% {
+    opacity: .1;
+  }
 }
