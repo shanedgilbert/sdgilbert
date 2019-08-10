@@ -14,22 +14,22 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
-<body>
+<body id="home">
 
 	<!--Navigation Bar-->
 	<nav class="navbar navbar-expand-md navbar-dark sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand my-logo" href="index.html">LOGO</a>
+			<a class="navbar-brand my-logo" href="#home">LOGO</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link nav-color" href="index.html">WORK</a>
+							<a class="nav-link nav-color" href="#projects">PROJECTS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link nav-color" href="#">ABOUT</a>
+							<a class="nav-link nav-color" href="#about">ABOUT</a>
 						</li>
 					</ul>
 				</div>
@@ -39,7 +39,7 @@
 	<!--Home Screen-->
 	<div class="container-fluid padding">
 		<div class="row main-text">
-			<div class="my-name padding">
+			<div class="my-name">
 				<div class="col-12">
 					<h1 class="my-name">Shane Gilbert</h1>
 				</div>
@@ -50,6 +50,24 @@
 			<div class="col-12 padding">
 				<p class="lead my-text">Hello. My name is Shane Gilbert and I am a
 					designer focused on UI/UX Design.</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Projects Section-->
+	<div class="container-fluid padding test-box" id="projects">
+		<div class="row padding">
+			<div class="col-xs-12 col-md-6">
+				<h1 class="display-4">Projects</h1>
+			</div>
+		</div>
+	</div>
+
+	<!--About Section-->
+	<div class="container-fluid padding test-box" id="about">
+		<div class="row padding">
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<h1 class="display-4">About</h1>
 			</div>
 		</div>
 	</div>
