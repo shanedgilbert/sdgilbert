@@ -5,13 +5,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.padding {
-  /* padding-bottom: 2rem; */
-  padding: 0 0 2rem 1rem;
-}
-
 .navbar {
   padding: 3rem;
+  position: absolute;
+  width: 100%;
 }
 
 .navbar-nav li {
@@ -20,6 +17,10 @@ html, body {
 
 .nav-link {
   font-size: 1.1em !important;
+}
+
+.nav-item {
+  text-align: right;
 }
 
 .nav-color, .logo-name {
@@ -34,38 +35,98 @@ html, body {
   border-color: transparent !important;
 }
 
-.logo-name {
-  font-weight: 500;
+.logo {
+  height: auto;
+  width: 6rem;
+}
+
+.scroll-top {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 80px;
+  height: 80px;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.welcome-section {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  display: flex;
 }
 
 .main-text {
   padding-left: 1rem;
 }
 
-.my-name {
+.my-name-main {
   color: white;
   padding-top: .25em;
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 4rem;
+  text-align: center;
   animation-name: name-drop, fade-in;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
-}
-
-.my-text {
-  color: #D0D3D4;
-  animation-name: fade-in;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  padding-top: 3rem;
-}
-
-.my-name h1 {
-  line-height: .8;
 }
 
 .my-name-sub {
-  color: #D0D3D4;
+  color: #0099ff;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.down-arrow {
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 90%;
+  display: flex;
+}
+
+.down-arrow > a {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.fa-chevron-down, .fa-chevron-up {
+  font-size: 2rem;
+  color: white;
+}
+
+.projects-section {
+  padding-top: 10%;
+}
+
+.test-box {
+  height: 150vh;
+  display: block;
 }
 
 @keyframes fade-in {
@@ -75,10 +136,6 @@ html, body {
 
 @keyframes name-drop {
   0% {transform: translateY(-100%);}
-}
-
-.test-box {
-  height: 50rem;
 }
 
 /*---Media Queries --*/
@@ -100,6 +157,14 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+  .navbar {
+    padding: 2rem;
+  }
+  .my-name-main {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+}
 @media (max-width: 768px) {}
 @media (max-width: 576px) {}
