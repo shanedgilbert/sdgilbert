@@ -19,10 +19,8 @@ html, body {
   text-align: right;
 }
 .nav-color, .logo-name {
-  color: #D0D3D4 !important;
-}
-.nav-color:hover {
-  color: white !important;
+  color: #C5C6C7 !important;
+  font-weight: 600;
 }
 .navbar-dark .navbar-toggler {
   border-color: transparent !important;
@@ -80,7 +78,7 @@ html, body {
   padding-left: 1rem;
 }
 .my-name-main {
-  color: white;
+  color: #C5C6C7;
   padding-top: .25em;
   font-weight: 600;
   font-size: 4rem;
@@ -90,7 +88,7 @@ html, body {
   animation-fill-mode: forwards;
 }
 .my-name-sub {
-  color: #0099ff;
+  color: #66FCF1;
   text-align: center;
   animation-name: fade-in;
   animation-duration: 3s;
@@ -102,16 +100,17 @@ html, body {
 }
 .my-name-brief {
   font-size: 1.5rem;
-  color: white;
+  color: #C5C6C7;
+  text-align: center;
   padding-top: 10rem;
   animation-name: name-rise, fade-in;
   animation-duration: 1.5s;
-  animation-delay: 1s;
+  animation-delay: .75s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 .project-title {
-  color: white;
+  color: #C5C6C7;
   justify-content: center;
   width: 100%;
   margin: 0;
