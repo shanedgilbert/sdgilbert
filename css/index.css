@@ -1,6 +1,6 @@
 html, body {
-  font-family: 'Raleway', sans-serif;
-  color: #222;
+  font-family: 'Roboto', sans-serif;
+  color: #C5C6C7;
   background-color: #000;
   scroll-behavior: smooth;
 }
@@ -19,8 +19,8 @@ html, body {
   text-align: right;
 }
 .nav-color, .logo-name {
-  color: #C5C6C7 !important;
   font-weight: 600;
+  color: #C5C6C7 !important;
 }
 .navbar-dark .navbar-toggler {
   border-color: transparent !important;
@@ -78,7 +78,6 @@ html, body {
   padding-left: 1rem;
 }
 .my-name-main {
-  color: #C5C6C7;
   padding-top: .25em;
   font-weight: 600;
   font-size: 4rem;
@@ -100,7 +99,6 @@ html, body {
 }
 .my-name-brief {
   font-size: 1.5rem;
-  color: #C5C6C7;
   text-align: center;
   padding-top: 10rem;
   animation-name: name-rise, fade-in;
@@ -110,7 +108,6 @@ html, body {
   opacity: 0;
 }
 .project-title {
-  color: #C5C6C7;
   justify-content: center;
   width: 100%;
   margin: 0;
@@ -142,7 +139,7 @@ html, body {
   background-size: 100% 100%;
 }
 .tile-2 {
-  background-image: url('../img/test.jpg');
+  background-image: url('../img/NewsFlash/NewsFlash-Presentation.jpg');
   background-size: 100% 100%;
 }
 .tile-3 {
@@ -162,16 +159,28 @@ html, body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(0,0,0,0.65);
+  background-color: rgba(0,0,0,0.8);
 }
 .hover-text {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.hover-text-sub {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hover-padding {
+  padding-top: 3rem;
 }
 .thumbnail:hover .overlay {
   opacity: 1;
