@@ -1,5 +1,5 @@
 html, body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: 'Open Sans', sans-serif;
   color: #C5C6C7;
   background-color: #000;
   scroll-behavior: smooth;
@@ -227,6 +227,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
   a:not([href]):not([tabindex]) {
     visibility: hidden;
   }
+  .show {
+    visibility: hidden;
+  }
   .my-name-main {
     font-size: 2.5rem;
     padding-top: 4rem;
@@ -235,7 +238,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
     font-size: 1.5rem;
   }
   .my-name-brief {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
   .brief {
     width: auto;
