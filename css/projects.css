@@ -6,7 +6,7 @@ html, body {
 }
 p {
   color: #4d4d4d;
-  font-size: 20px;
+  font-size: 18px;
 }
 .navbar {
   padding: 3rem;
@@ -27,8 +27,12 @@ p {
   color: black !important;
   font-weight: 600;
 }
-.navbar-dark .navbar-toggler {
+.navbar-light .navbar-toggler {
   border-color: transparent !important;
+}
+.collapsing, .collapse.show {
+  background-color: #F4F6F7;
+  border-radius: 5px;
 }
 .logo {
   height: auto;
@@ -74,6 +78,9 @@ p {
   border: 1px solid gray;
   width: 80%;
 }
+.style1 {
+  background-color: #F4F6F7;
+}
 .overview-sub {
   height: 33%;
 }
@@ -93,6 +100,10 @@ p {
 .fa-html5 {
   color: #e34c26;
 }
+.fa-github {
+  color: #211F1F;
+  font-size: 8rem;
+}
 .divider {
   border: 1px solid gray;
   width: 80%;
@@ -101,6 +112,9 @@ p {
 }
 .subsection {
   justify-content: center;
+}
+.subsection > a {
+  background-color: white;
 }
 .section-text {
   width: 60%;
@@ -116,6 +130,9 @@ p {
 .caption p {
   font-size: 16px;
   font-style: italic;
+}
+.links {
+  padding-bottom: 4rem;
 }
 /*---Media Queries --*/
 
@@ -140,9 +157,25 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .navbar {
     padding: 2rem;
   }
-  .my-name-main {
-    font-size: 3rem;
-    padding-bottom: 2rem;
+  .logo {
+    width: 3rem;
+  }
+  .header-right {
+    padding-top: 2rem;
+  }
+  .header-right hr {
+    width: auto;
+  }
+  .header-right > h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .overview-sub {
+    text-align: center;
+  }
+  .section-text {
+    width: auto;
+    padding: 0 2rem 2rem 2rem;
   }
 }
 @media (max-width: 768px) {}
