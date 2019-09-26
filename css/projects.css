@@ -78,8 +78,8 @@ p {
   border: 1px solid gray;
   width: 80%;
 }
-.style1 {
-  background-color: #F4F6F7;
+.subsection-style {
+  background-image: linear-gradient(#F4F6F7, #FEFFFF);
 }
 .overview-sub {
   height: 33%;
