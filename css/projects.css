@@ -59,7 +59,7 @@ p {
 .header-photo {
   width: 100%;
   max-height: 62vh;
-  box-shadow: 0px 0px 15px black;
+  box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.5);
 }
 .header-right {
   padding: 0 2rem 2rem 2rem;
