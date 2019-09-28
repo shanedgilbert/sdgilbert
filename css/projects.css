@@ -55,6 +55,7 @@ p {
 }
 .header {
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .header-photo {
   width: 100%;
@@ -179,4 +180,16 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
 }
 @media (max-width: 768px) {}
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+  .divider {
+    border: 1px solid gray;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    visibility: hidden;
+  }
+  .section-text h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

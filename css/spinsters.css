@@ -1,0 +1,11 @@
+.section-header {
+  padding-bottom: 3rem;
+}
+.problem-titles {
+  font-size: 26px;
+  font-weight: 600;
+  color: orange;
+}
+.problem-images {
+  padding-bottom: 2rem;
+}

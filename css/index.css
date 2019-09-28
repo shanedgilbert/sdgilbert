@@ -131,6 +131,7 @@ html, body {
 }
 .thumbnail {
   text-decoration: none !important;
+  border-radius: 10px;
 }
 .thumbnail > img {
   width: 100%;
@@ -146,7 +147,7 @@ html, body {
   background-size: 100% 100%;
 }
 .tile-3 {
-  background-image: url('../img/test.jpg');
+  background-image: url('../img/FastEats/Final.png');
   background-size: 100% 100%;
 }
 .tile-4 {
@@ -154,7 +155,7 @@ html, body {
   background-size: 100% 100%;
 }
 .tile-5 {
-  background-image: url('../img/test.jpg');
+  background-image: url('../img/Spinsters/spinsters.png');
   background-size: 100% 100%;
 }
 .overlay {
@@ -221,15 +222,15 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .overlay {
     opacity: .8;
   }
-}
-@media (max-width: 768px) {}
-@media (max-width: 576px) {
   a:not([href]):not([tabindex]) {
     visibility: hidden;
   }
   .show {
     visibility: hidden;
   }
+}
+@media (max-width: 768px) {}
+@media (max-width: 576px) {
   .my-name-main {
     font-size: 2.5rem;
     padding-top: 4rem;
