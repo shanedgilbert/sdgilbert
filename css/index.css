@@ -1,29 +1,28 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
-  color: #C5C6C7;
-  background-color: #000;
+  color: #222;
+  background-color: #F5F5F5;
   scroll-behavior: smooth;
 }
 .navbar {
   padding: 3rem;
   position: absolute;
   width: 100%;
-}
-.navbar-nav li {
-  padding-right: 20px;
+  z-index: 1;
 }
 .nav-link {
-  font-size: 1.1em !important;
+  font-size: 1.3em !important;
+  padding-left: 2.5rem !important;
 }
 .nav-item {
   text-align: right;
 }
-.nav-color, .logo-name {
-  font-weight: 600;
-  color: #C5C6C7 !important;
-}
 .navbar-dark .navbar-toggler {
   border-color: transparent !important;
+}
+.collapsing, .collapse.show {
+  background-color: #F4F6F7;
+  border-radius: 5px;
 }
 .logo {
   height: auto;
@@ -31,6 +30,9 @@ html, body {
 }
 .row {
   margin: 0;
+}
+.head-waves {
+  position: absolute;
 }
 .scroll-top {
   transition: all .25s ease-in-out;
@@ -78,7 +80,7 @@ html, body {
   padding-left: 1rem;
 }
 .my-name-main {
-  padding-top: .25em;
+  padding-top: 2.5em;
   font-weight: 600;
   font-size: 4rem;
   text-align: center;
@@ -87,7 +89,7 @@ html, body {
   animation-fill-mode: forwards;
 }
 .my-name-sub {
-  color: #66FCF1;
+  color: #012172;
   text-align: center;
   animation-name: fade-in;
   animation-duration: 3s;
@@ -100,7 +102,7 @@ html, body {
 .my-name-brief {
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 6rem;
   animation-name: name-rise, fade-in;
   animation-duration: 1.5s;
   animation-delay: .75s;
@@ -119,7 +121,6 @@ html, body {
 }
 .fa-chevron-down, .fa-chevron-up {
   font-size: 2rem;
-  color: white;
 }
 .thumbnail-row {
   justify-content: center;
