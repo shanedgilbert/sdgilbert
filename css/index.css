@@ -129,10 +129,9 @@ html, body {
   height: 24rem;
   margin: 1rem;
   padding: 0 !important;
-}
-.thumbnail {
   text-decoration: none !important;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 .thumbnail > img {
   width: 100%;
@@ -140,7 +139,7 @@ html, body {
   z-index: -1;
 }
 .tile-1 {
-  background-image: url('../img/test.jpg');
+  background-image: url('../img/TJFarms/tjfarms.PNG');
   background-size: 100% 100%;
 }
 .tile-2 {
@@ -152,16 +151,21 @@ html, body {
   background-size: 100% 100%;
 }
 .tile-4 {
-  background-image: url('../img/test.jpg');
+  background-image: url('../img/FlyingGroceries/flyinggroceries.PNG');
   background-size: 100% 100%;
 }
 .tile-5 {
   background-image: url('../img/Spinsters/spinsters.png');
   background-size: 100% 100%;
 }
+.tile-6 {
+  background-image: url('../img/Calculator/calculator.jpg');
+  background-size: 100% 100%;
+}
 .overlay {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0,0,0,0.8);
@@ -230,7 +234,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
     visibility: hidden;
   }
 }
-@media (max-width: 768px) {}
 @media (max-width: 576px) {
   .my-name-main {
     font-size: 2.5rem;

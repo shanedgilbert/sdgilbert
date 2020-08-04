@@ -47,6 +47,9 @@ p {
   color: #4d4d4d;
   font-size: 24px;
 }
+h3 {
+  font-weight: bold;
+}
 .header {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -118,8 +121,8 @@ p {
 .section-text > h1 {
   padding-bottom: 2rem;
 }
-.section-text li {
-  font-size: 48px;
+.understanding-list {
+  font-size: 40px;
 }
 .section-text li p {
   font-size: 18px;
@@ -127,6 +130,11 @@ p {
 .section-image {
   border: 1px solid gray;
   border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+}
+.section-image > a > img {
+  max-height: 640px;
 }
 .caption {
   justify-content: center;
