@@ -5,7 +5,15 @@
   font-size: 26px;
   font-weight: 600;
   color: orange;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
 .problem-images {
   padding-bottom: 2rem;
+}
+.problem-images img {
+  max-height: 18rem;
+  width: 100%;
+  height: 100%;
 }
