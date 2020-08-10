@@ -17,3 +17,9 @@
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 576px) {
+  .problem-images {
+    padding-bottom: 0.5rem;
+  }
+}
