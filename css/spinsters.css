@@ -22,4 +22,7 @@
   .problem-images {
     padding-bottom: 0.5rem;
   }
+  .problem-p {
+    padding-top: 2rem;
+  }
 }
