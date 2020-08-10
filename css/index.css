@@ -262,4 +262,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .main-text {
     padding-left: 0;
   }
+  .section-text {
+    padding: 0 !important;
+  }
 }

@@ -253,6 +253,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .understanding-images {
     height: 100%;
   }
+  .understanding-list {
+    font-size: 1rem;
+  }
   .caption {
     padding-top: 0.5rem;
   }
@@ -261,5 +264,17 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .links {
     padding-top: 2rem;
+  }
+  .section-text {
+    padding: 0;
+  }
+  .section-text p {
+    padding: 0 2rem 0 2rem;
+  }
+  .understanding {
+    padding: 0 2rem 0 2rem;
+  }
+  .section-text h3 {
+    padding-left: 2rem;
   }
 }
