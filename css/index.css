@@ -110,16 +110,6 @@ html, body {
   animation-fill-mode: forwards;
   opacity: 0;
 }
-.project-title {
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-  padding-top: 2rem;
-}
-.project-title > p {
-  font-size: 2rem;
-  font-weight: 600;
-}
 .fa-chevron-down, .fa-chevron-up {
   font-size: 2rem;
 }
