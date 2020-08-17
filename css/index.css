@@ -43,20 +43,20 @@ html, body {
   padding: 0 4rem 0 4rem;
 }
 .directory-button {
+  color: #012172;
+  border-color: #012172;
   width: 175px;
-  text-decoration: none;
   border-radius: 50px;
-  border: 0;
-  color: #F5F5F5;
-  font-size: 1.5rem;
-  background-color: rgb(0, 153, 255);
   padding: 1rem 1.5rem 1rem 1.5rem;
   animation-name: fade-in;
   animation-duration: 1s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.directory-button:hover {
+  background-color: #012172;
+  border-color: #012172;
 }
 .welcome-section {
   height: 100vh;
@@ -108,9 +108,8 @@ html, body {
 .project-title > p {
   font-size: 2rem;
   font-weight: 600;
-}
-.fa-chevron-down, .fa-chevron-up {
-  font-size: 2rem;
+  color: #012172;
+  padding-top: 25vh;
 }
 .thumbnail-row {
   justify-content: center;
