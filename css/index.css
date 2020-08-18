@@ -23,11 +23,13 @@ html, body {
 .collapsing, .collapse.show {
   background-color: #F5F5F5;
   border-radius: 5px;
-  box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.5);
 }
 .logo {
   height: auto;
   width: 6rem;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("/img/menu.svg");
 }
 .row {
   margin: 0;
@@ -255,5 +257,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .section-text {
     padding: 0 !important;
+  }
+  .top-link {
+    color: black !important;
   }
 }
