@@ -19,33 +19,45 @@
 	<link rel="stylesheet" type="text/css" href="css/projects.css">
 </head>
 
-<body id="home">
-
-	<!--Navigation Bar-->
-	<nav class="navbar navbar-expand-md navbar-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand my-logo" href="/">
-				<img src="img/logo.png" class="logo">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link nav-color" href="/">PORTFOLIO</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link nav-color" href="about">ABOUT</a>
-						</li>
-					</ul>
-				</div>
-		</div>
-	</nav>
+<!--Navigation Bar-->
+<nav class="navbar navbar-expand-md navbar-dark">
+	<div class="container-fluid">
+		<a class="navbar-brand my-logo" href="/">
+			<img src="img/logo.png" class="logo">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link nav-color top-link" href="/">PORTFOLIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link nav-color top-link" href="about">ABOUT</a>
+					</li>
+				</ul>
+			</div>
+	</div>
+</nav>
 
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="position: absolute">
 		<path fill="#012172" fill-opacity="1" d="M0,256L80,224C160,192,320,128,480,96C640,64,800,64,960,85.3C1120,107,1280,149,1360,170.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
 	</svg>
+
+	<body id="home" data-spy="scroll" data-target="#sidebar">
+		<!--sidebar-->
+		<nav id="sidebar" class="navbar navbar-light nav-sidebar">
+			<nav class="nav nav-pills flex-column nav-sidebar-links">
+				<a class="nav-link sidebar-title" href="#home">NewsFlash</a>
+				<a class="nav-link" href="#problem">Problem</a>
+				<a class="nav-link" href="#understanding">Understanding</a>
+				<a class="nav-link" href="#initial">Initial Design</a>
+				<a class="nav-link" href="#final">Final Design</a>
+				<a class="nav-link" href="#future">Future Considerations</a>
+				<a class="nav-link" href="#learnings">Learnings</a>
+			</nav>
+		</nav>
 
 	<!--Main-->
 	<!--Title-->
@@ -82,7 +94,7 @@
 		</div>
 	</div>
 
-	<div class="row subsection subsection-style">
+	<div id="problem" class="row subsection subsection-style">
 		<hr class="divider">
 		<div class="section-text">
 			<h1 class="text-center">Problem:</h1>
@@ -105,7 +117,7 @@
 		</div>
 	</div>
 
-	<div class="row subsection subsection-style">
+	<div id="understanding" class="row subsection subsection-style">
 		<hr class="divider">
 		<div class="section-text">
 			<h1 class="text-center">Understanding:</h1>
@@ -129,7 +141,7 @@
 		</div>
 	</div>
 
-	<div class="row subsection subsection-style">
+	<div id="initial" class="row subsection subsection-style">
 		<hr class="divider">
 		<div class="section-text">
 			<h1 class="text-center">Initial Design:</h1>
@@ -153,7 +165,7 @@
 		</div>
 	</div>
 
-	<div class="row subsection subsection-style">
+	<div id="final" class="row subsection subsection-style">
 		<hr class="divider">
 		<div class="section-text">
 			<h1 class="text-center">Final Design:</h1>
@@ -177,7 +189,7 @@
 		</div>
 	</div>
 
-	<div class="row subsection subsection-style">
+	<div id="future" class="row subsection subsection-style">
 		<hr class="divider">
 		<div class="section-text">
 			<h1 class="text-center">Future Considerations:</h1>
@@ -185,7 +197,7 @@
 		</div>
 	</div>
 
-	<div class="row subsection subsection-style">
+	<div id="learnings" class="row subsection subsection-style">
 		<hr class="divider">
 		<div class="section-text">
 			<h1 class="text-center">Learnings:</h1>

@@ -14,7 +14,11 @@ p {
   width: 100%;
   z-index: 1;
 }
-.nav-link {
+.mobile-navbar {
+  opacity: 0;
+  z-index: 10;
+}
+.top-link {
   font-size: 1.3em !important;
   padding-left: 2.5rem !important;
 }
@@ -23,6 +27,28 @@ p {
 }
 .navbar-light .navbar-toggler {
   border-color: transparent !important;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("/img/menu.svg");
+}
+.nav-sidebar {
+  position: fixed;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 87.5%;
+  z-index: 0;
+}
+.sidebar-title {
+  font-weight: 600;
+}
+.nav-sidebar-links a {
+  font-size: 12pt;
+  color: #012172;
+}
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
+  color: #007bff;
 }
 .collapsing, .collapse.show {
   background-color: #F4F6F7;
@@ -62,6 +88,7 @@ h3 {
 }
 .header-right {
   padding: 0 2rem 2rem 2rem;
+  max-width: 800px;
 }
 .header-right > h2, .overview-sub-tab > h3 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -73,6 +100,7 @@ h3 {
   width: 80%;
   margin: 2rem;
 }
+
 .section-divider {
   border: 1px solid gray;
   width: 80%;
@@ -192,6 +220,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .problem-caption {
     height: 200px;
   }
+  #sidebar {
+    opacity: 0;
+    left: 100%;
+  }
 }
 @media (max-width: 992px) {
   .navbar {
@@ -273,5 +305,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .section-text h3 {
     padding-left: 2rem;
+  }
+  #sidebar {
+    opacity: 0;
+    left: 100%;
+  }
+  .top-link {
+    color: black !important;
   }
 }
