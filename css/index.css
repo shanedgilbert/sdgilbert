@@ -187,7 +187,33 @@ html, body {
 @keyframes name-rise {
   0% {transform: translateY(100%);}
 }
-
+.footer-dark {
+  background-color: #1c2331 !important;
+}
+.footer-accent {
+  background-color: #003366;
+}
+.footer-copyright {
+  background-color: rgba(0,0,0,0.2);
+}
+footer p,
+footer h6,
+footer a,
+.white-text,
+.footer-accent,
+.footer-copyright {
+  color: white;
+}
+footer hr {
+  border-color: #003366;
+}
+.connect-icon {
+  font-size: 2rem;
+}
+.connect-icon:hover, footer a:hover {
+  text-decoration: none;
+  color: white;
+}
 /*---Media Queries --*/
 
 /*

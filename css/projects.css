@@ -44,11 +44,11 @@ p {
 }
 .nav-sidebar-links a {
   font-size: 12pt;
-  color: #012172;
+  color: gray;
 }
 .nav-pills .nav-link.active {
   background-color: transparent !important;
-  color: #007bff;
+  color: black;
 }
 .collapsing, .collapse.show {
   background-color: #F5F5F5;
@@ -64,6 +64,10 @@ p {
 .title {
   padding-top: 10rem;
   text-align: center;
+}
+.title a {
+  text-decoration: none;
+  color: #003366;
 }
 .title > h1 {
   font-weight: 600;
@@ -192,6 +196,37 @@ h3 {
 .links {
   padding-bottom: 4rem;
 }
+.footer-dark {
+  background-color: #1c2331 !important;
+}
+.footer-accent {
+  background-color: #003366;
+}
+.footer-copyright {
+  background-color: rgba(0,0,0,0.2);
+}
+footer p,
+footer h6,
+footer a,
+.white-text,
+.footer-accent,
+.footer-copyright {
+  color: white;
+  font-size: 1rem;
+}
+footer hr {
+  border-color: #003366;
+}
+.connect-icon, 
+.footer-git,
+.footer-linked {
+  font-size: 2rem !important;
+}
+.connect-icon:hover, footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 /*---Media Queries --*/
 
 /*
