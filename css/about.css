@@ -1,8 +1,20 @@
-h1 {
-  font-size: 48pt;
+.about-body {
   padding-top: 50vh;
-}
-.wip {
-  text-align: center;
+  height: 100%;
+  width: 100%;
   justify-content: center;
+  display: flex;
+}
+.about-left {
+  align-items: center;
+  text-align: center;
+}
+.about-left {
+
+}
+.about-middle {
+
+}
+.about-right {
+
 }
