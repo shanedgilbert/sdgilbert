@@ -239,7 +239,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .navbar-nav .nav-link {
     padding-right: 1rem;
-    color: rgba(0,0,0,1) !important;
   }
   .brief {
     width: 80%;
@@ -247,11 +246,15 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .overlay {
     opacity: .8;
   }
-  a:not([href]):not([tabindex]) {
+  .show {
     visibility: hidden;
   }
 }
 @media (max-width: 576px) {
+  .navbar-nav .nav-link {
+    padding-right: 1rem;
+    color: rgba(0,0,0,1) !important;
+  }
   .my-name-main {
     font-size: 2.5rem;
     padding-top: 4rem;
@@ -261,6 +264,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .my-name-brief {
     padding-top: 4rem;
+    font-size: 1rem;
   }
   .brief {
     width: auto;
@@ -273,9 +277,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
   }
   .hover-text {
     padding-top: 7rem;
-  }
-  svg:not(:root).svg-inline--fa {
-    visibility: hidden;
   }
 
   .main-text {
