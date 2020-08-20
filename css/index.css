@@ -21,7 +21,7 @@ html, body {
   text-align: right;
 }
 .collapsing, .collapse.show {
-  background-color: #F5F5F5;
+  background-color: #e6f2ff;
   border-radius: 5px;
 }
 .logo {
