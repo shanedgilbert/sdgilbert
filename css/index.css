@@ -177,6 +177,9 @@ html, body {
 .thumbnail:hover .overlay {
   opacity: 1;
 }
+.footer-links {
+  padding-top: 2rem;
+}
 @keyframes fade-in {
   from {opacity: 0;}
   to {opacity: 1;}

@@ -217,14 +217,15 @@ footer a,
 footer hr {
   border-color: #003366;
 }
-.connect-icon, 
-.footer-git,
-.footer-linked {
+.footer-icon{
   font-size: 2rem !important;
 }
 .connect-icon:hover, footer a:hover {
   text-decoration: none;
   color: white;
+}
+.footer-links {
+  padding-top: 2rem;
 }
 
 /*---Media Queries --*/
