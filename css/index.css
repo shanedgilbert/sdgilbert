@@ -155,6 +155,14 @@ html, body {
   background-image: url('../img/Calculator/calculator.PNG');
   background-size: 100% 100%;
 }
+.tile-7 {
+  background-image: url('../img/Stub/stub.png');
+  background-size: 100% 100%;
+}
+.tile-8 {
+  background-image: url('../img/HourTracker/hourtracker.png');
+  background-size: 100% 100%;
+}
 .overlay {
   height: 100%;
   width: 100%;
@@ -178,7 +186,7 @@ html, body {
   opacity: 1;
 }
 .footer-links {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 @keyframes fade-in {
   from {opacity: 0;}
